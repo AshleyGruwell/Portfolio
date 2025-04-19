@@ -1,0 +1,135 @@
+html{
+    
+    font-family: "hey-eloise", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    font-family: "moonblossom", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    *{
+        margin:0;
+        padding:0;
+      }
+    
+    
+      header{
+        position:sticky;
+        top:0;
+        width:100%;
+        height: auto;
+        padding:1rem 0 1rem 0;
+        margin-top:0%;
+        background-color: #fff;
+        display:flex;
+        justify-content:end;
+        } 
+        
+        .header>nav>a{
+                font-family: "hey-eloise", sans-serif;
+                font-weight: 500;
+                text-decoration: none;
+                font-size: larger;
+        
+                background-color:#dae0f7;
+                color:#42487c;
+                border-radius:2rem;
+                padding:.5rem 1rem;  
+        }
+    
+        .header nav{
+            margin: 0 1rem 0 0;
+        }
+        
+        nav>a:hover{
+            background-color:#42487c;
+                color:#dae0f7;
+        }  
+    
+    main{
+        padding: 1rem;
+        background-color:#dae0f7b5;  
+    }
+
+    
+.footer{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    background:transparent;
+    border-radius:2rem;
+}
+
+
+.footer>a>img{
+    background-color: none;
+    width: 3rem;
+    padding:1rem;
+}
+
+
+.container{
+    max-width:1224px;
+    width:90%;
+    margin:auto;
+    background-color: #fff;
+    color:#42487c;
+    padding:1rem;
+}
+
+.container h1{
+    font-family: "hey-eloise", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:xx-large;
+    background-color: #dae0f7b5;
+    padding:1rem;
+    border-radius:2rem;
+}
+
+.title{
+    margin-bottom: 2rem;
+    padding:1rem;
+}
+
+.drawing-gallery{
+    display:flex;
+    flex-wrap: wrap;
+    align-content:start;
+    justify-content:center;
+    gap:1rem;
+    padding:1rem;
+}
+.column{
+    display:flex;
+    flex-direction:column;
+    align-content:start;
+    justify-content: center;
+    justify-items: center;
+    gap:1rem;
+    background-color: #fff;
+    padding:1rem;
+}
+
+.drawing{
+    border-radius:.5rem ;
+    object-fit:cover;
+    background-color: #fff;
+}
+
+.drawing img{
+    max-width:20rem;
+    height:auto;
+}
+
+@media(max-width:750px){
+    .drawing-gallery{
+        flex-direction: column;
+    }
+}
